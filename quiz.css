@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Edu+SA+Beginner&family=Lato&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;1,200;1,700&family=Roboto+Mono:ital,wght@1,700&family=Ubuntu:wght@300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(19, 16, 16);
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+#container{
+    text-align: center;
+    width: 60vw;
+    margin: 40px auto;
+}
+#separate{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+.box{
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+#box-1{
+    border: 1px solid green;
+}
+.plus{
+    color: white;
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+}
+#answer-con{
+    display: flex;
+    justify-content: center;
+}
+#input-answer{
+    width: 180px;
+    height: 30px;
+    border: 1px solid blue;
+    background-color: rgb(19, 16, 16);
+    text-align: center;
+    color: white;
+}
+.mark{
+    margin-bottom: 7px;
+    position: relative;
+    left: 50vw;
+    padding: 1px 0px;
+    width: 20px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
+button{
+    padding: 10px;
+    color: white;
+    background: green;
+    border: 1px solid green;
+    outline: none;
+}
