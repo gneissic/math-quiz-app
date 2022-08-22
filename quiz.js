@@ -16,15 +16,15 @@ let ran2 = Math.floor(Math.random()*50+1)
         finalAns.style.color = 'white'
         document.getElementById("input-answer").value = ""
     }else if (placer == "") {
-        alert("input is empty")
+        alert("input a number")
     }
     else{
-        finalAns.textContent = `oops, your asnwer is incorrect`
+        finalAns.textContent = `oops, your asnwer is incorrect the correct answer is ${answer}`
         finalAns.style.color = 'red'
         document.getElementById("input-answer").value = ""
     }
     let ran1 = Math.floor( Math.random()*50+1)
-let ran2 = Math.floor(Math.random()*50+1)
+ let ran2 = Math.floor(Math.random()*50+1)
  let box1 = document.getElementById("box-1")
  let box2 = document.getElementById("box-2")
  let mark = document.getElementById("tip")
